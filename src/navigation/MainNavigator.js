@@ -25,6 +25,7 @@ function MainNavigator() {
           headerTransparent: true,
           headerTitle: null,
           headerShown: false,
+          orientation: false,
         }}>
         {!onboarding && (
           <Stack.Screen

@@ -13,7 +13,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     marginTop: hp('2'),
     alignItems: 'center',
-    flexWrap: 'wrap',
+    // flexWrap: 'wrap',
   },
   titleInner: {
     width: wp('62'),
@@ -124,6 +124,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     // alignItems: 'center',
+    // alignItems: 'center',
   },
   dotSt: {
     width: wp('1.7'),
@@ -131,7 +132,7 @@ export const styles = StyleSheet.create({
     padding: 1,
     backgroundColor: Colors.textGray,
     borderRadius: 50,
-    marginTop: hp('1.7'),
+    marginTop: hp('1.5'),
   },
   pDescLast: {
     width: wp('90'),

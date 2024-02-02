@@ -11,12 +11,12 @@ const VideoThumbComponent = ({videoTitle, videoDesc, videoThumb, onPress}) => {
       <TouchableWithoutFeedback onPress={onPress}>
         <View style={styles.pBtnMain}>
           <View style={styles.plyBtn}>
-            <Image source={playBtn} resizeMode="contain" />
+            <Image source={playBtn} style={styles.videoThumbnail} />
           </View>
           <Image
             source={{uri: videoThumb}}
             style={styles.videoThumbnail}
-            // resizeMode="contain"
+            // resizeMode="cover"
           />
         </View>
       </TouchableWithoutFeedback>
@@ -46,6 +46,7 @@ const styles = StyleSheet.create({
   videoThumbnail: {
     width: wp('94'),
     height: hp('19'),
+    borderRadius: 10,
   },
   videoTitle: {
     fontWeight: '400',
